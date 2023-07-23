@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-[#151515] p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
+        className='black-gradient  p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
       >
         <div className='relative w-full h-[230px]'>
           <img
