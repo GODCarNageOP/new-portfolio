@@ -3,18 +3,15 @@ import {
   backend,
   creator,
   web,
-  javascript,
   typescript,
-  html,
-  css,
+  express,
+  nextjs,
   reactjs,
-  redux,
+  solidity,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -23,6 +20,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  firebase,
+  bootstrap,
+  vite,
 } from "../assets";
 
 export const navLinks = [
@@ -61,41 +61,45 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Express JS",
+    icon: express,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Node JS",
+    icon: nodejs,
+  },
+ 
+  {
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Vite JS",
+    icon: vite,
   },
+  
+ 
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Solidity",
+    icon: solidity,
   },
+ 
   {
     name: "Three JS",
     icon: threejs,
@@ -105,12 +109,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "firebase",
+    icon: firebase,
   },
 ];
 
@@ -198,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cloudcore",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -216,10 +220,10 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GODCarNageOP/Hackathon-GeeksForGeeks.git",
   },
   {
-    name: "Job IT",
+    name: "College ",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -237,10 +241,10 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
   },
   {
-    name: "Trip Guide",
+    name: "ERP Tcet",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -258,7 +262,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/GODCarNageOP/Electronics-TCET.git",
   },
 ];
 
