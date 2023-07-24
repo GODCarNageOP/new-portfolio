@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import vercel from "./cloud.png"
 import nextjs from "./next.png";
 import firebase from "./firebase.png";
 import bootstrap from "./bootstrap.png";
@@ -26,9 +26,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import elex from "./electronics.png";
+import collegeseva from "./collegeseva.png";
+import amplify from "./amplify.jpg";
+
+import xd1 from "./xd1.jpg";
+import xd2 from "./xd2.jpg";
+import xd3 from "./xd3.jpg";
 
 export {
   logo,
@@ -56,7 +60,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  elex,
+  collegeseva,
+  amplify,
+  vercel,
+  xd1,
+  xd2,
+  xd3
 };

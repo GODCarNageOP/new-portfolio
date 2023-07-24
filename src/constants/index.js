@@ -16,13 +16,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  elex,
+  collegeseva,
+  amplify,
   threejs,
   firebase,
   bootstrap,
   vite,
+  xd1,
+  xd2,
+  xd3
 } from "../assets";
 
 export const navLinks = [
@@ -176,42 +179,45 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "It was a great expreience working with Yash, one of the finest developer I have ever met!",
+    name: "Ranjeet Walunj",
+    designation: "Senior VP",
+    company: "Clever Tap",
+    image: xd1,
+    linkedin: "https://www.linkedin.com/in/mayavi/"
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Yash does.",
+    name: "Hemant Kasturiwale",
+    designation: "HOD",
+    company: "E&CS Tcet",
+    image: xd2,
+    linkedin: "https://www.linkedin.com/in/dr-hemant-kasturiwale-jain-5274b319/"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Yash proved me wrong.",
+    name: "Amol Bhanushali",
+    designation: "CEO",
+    company: "Atrina Technologies",
+    image: xd3,
+    linkedin: "https://www.linkedin.com/in/amolbhanushali/"
   },
 ];
 
 const projects = [
   {
-    name: "Cloudcore",
+    name: "ERP Tcet",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "It is a comprehensive software system designed to streamline and integrate various administrative, academic, and operational processes within the institution.",
     tags: [
       {
-        name: "react",
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mern",
         color: "green-text-gradient",
       },
       {
@@ -219,50 +225,53 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/GODCarNageOP/Hackathon-GeeksForGeeks.git",
-  },
-  {
-    name: "College ",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
-  },
-  {
-    name: "ERP Tcet",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: elex,
     source_code_link: "https://github.com/GODCarNageOP/Electronics-TCET.git",
+    deployed_code_link: "",
+  },
+  {
+    name: "AI Amplify",
+    description:
+      "The web application enables users to use various Ai Models like Next sentence prediction, Generating Book summaries, etc for their day-to-day lifestyle.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mern",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: amplify,
+    source_code_link: "https://github.com/GODCarNageOP/Hackathon-AI-Amplify.git",
+    deployed_code_link: "https://hackathon-ai-amplify.vercel.app/"
+  },
+  {
+    name: "College Seva",
+    description:
+      "The website offers a user-friendly interface where aspiring students can input their CET exam scores and other relevant details to find the perfect college for their future.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mern",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: collegeseva,
+    source_code_link: "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
+    deployed_code_link: "https://hackathon-mumbai-hacks.vercel.app/",
   },
 ];
 
