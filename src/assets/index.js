@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./three.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import google from "./google.png";
+import finance from "./finance.jpg";
+import owasp from "./owasp.png";
+import team from "./team.png";
 
 import elex from "./electronics.png";
 import collegeseva from "./collegeseva.png";
@@ -36,6 +36,7 @@ import xd3 from "./xd3.jpg";
 
 export {
   logo,
+  finance,
   backend,
   creator,
   mobile,
@@ -56,10 +57,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  team,
+  owasp,
+  google,
   elex,
   collegeseva,
   amplify,

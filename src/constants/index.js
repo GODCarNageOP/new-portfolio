@@ -12,10 +12,10 @@ import {
   nodejs,
   mongodb,
   git,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  finance,
+  google,
+  team,
+  owasp,
   elex,
   collegeseva,
   amplify,
@@ -25,7 +25,7 @@ import {
   vite,
   xd1,
   xd2,
-  xd3
+  xd3,
 } from "../assets";
 
 export const navLinks = [
@@ -83,7 +83,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
- 
+
   {
     name: "Next JS",
     icon: nextjs,
@@ -96,13 +96,12 @@ const technologies = [
     name: "Vite JS",
     icon: vite,
   },
-  
- 
+
   {
     name: "Solidity",
     icon: solidity,
   },
- 
+
   {
     name: "Three JS",
     icon: threejs,
@@ -123,56 +122,64 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Solve for India",
+    company_name: "Google",
+    icon: google,
+    iconBg: "black",
+    date: "1st - 20th April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Cloudcore leverages the power of the Ethereum blockchain to provide a secure and peer-to-peer data storage solution. ",
+      "With this dApp, users can store their sensitive data in a decentralized manner, ensuring data integrity and control while facilitating seamless sharing with trusted peers.",
+      "Through smart contracts on the Ethereum blockchain, users gain access to their individual data vaults, which act as tamper-proof and encrypted containers for their personal information, documents, or any other data they wish to safeguard. ",
+      "This data is securely stored across the Ethereum network, making it resilient to single points of failure and immune to unauthorized tampering.",
     ],
+    github: "https://github.com/GODCarNageOP/Hackathon-GeeksForGeeks.git",
+    linkedin: "https://www.linkedin.com/company/google/",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Hackowasp 5.0",
+    company_name: "OWASP",
+    icon: owasp,
+    iconBg: "white",
+    date: "14th - 16th April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tutor is an innovative web application designed to connect students with skilled tutors, offering a personalized and effective learning experience.",
+      "With a vast pool of qualified tutors, students can select the perfect match based on their budget and the tutor's experience.",
+      "Upon accessing Tutor, students can explore a diverse range of subject areas and find tutors specialized in various fields.",
+      " The app provides comprehensive tutor profiles that highlight their educational background, teaching experience, expertise, and user reviews.",
     ],
+    github: "https://github.com/GODCarNageOP/Hackathon-OWASP.git",
+    linkedin: "https://www.linkedin.com/company/owasp/",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Ai Amplify Hackathon",
+    company_name: "1 Finance",
+    icon: finance,
+    iconBg: "black",
+    date: "21st - 22nd July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The AI Amplify is a dynamic web application built using TypeScript, dedicated to bringing the power of artificial intelligence to users through a variety of cutting-edge AI products.",
+      "Leveraging TypeScript's flexibility, the app offers a seamless and user-friendly experience, making AI accessible to individuals from all backgrounds.",
+      "The AI Amplify prides itself on user privacy and data security. All uploaded content and user interactions are processed locally within the browser, ensuring that sensitive information remains private and never leaves the user's device.",
+      "Users can contribute to the app by suggesting improvements, training new AI models, or integrating additional AI products.",
     ],
+    github: "https://github.com/GODCarNageOP/Hackathon-AI-Amplify.git",
+    linkedin: "https://www.linkedin.com/company/1financehq/?originalSubdomain=in",
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "MumbaiHacks'23",
+    company_name: "Tech Entrepreneurs Association of Mumbai (TEAM)",
+    icon: team,
+    iconBg: "white",
+    date: "3rd - 4th June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "CollegeFinder is a user-friendly web application designed to help students in their search for the perfect college based on their Common Entrance Test (CET) exam marks.",
+      "Whether you are a high school student planning for higher education or a college aspirant looking for a better fit, CollegeFinder streamlines the process of finding eligible colleges that match your academic achievements.",
+      "Upon accessing the app, students can input their CET exam marks and specify their preferred course of study. ",
+      "CollegeFinder's advanced algorithm then analyzes the data and generates a personalized list of eligible colleges that align with the student's academic performance and interests.",
     ],
+    github: "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
+    linkedin: "https://www.linkedin.com/company/mumbaitech/?originalSubdomain=in",
   },
 ];
 
@@ -184,7 +191,7 @@ const testimonials = [
     designation: "Senior VP",
     company: "Clever Tap",
     image: xd1,
-    linkedin: "https://www.linkedin.com/in/mayavi/"
+    linkedin: "https://www.linkedin.com/in/mayavi/",
   },
   {
     testimonial:
@@ -193,7 +200,8 @@ const testimonials = [
     designation: "HOD",
     company: "E&CS Tcet",
     image: xd2,
-    linkedin: "https://www.linkedin.com/in/dr-hemant-kasturiwale-jain-5274b319/"
+    linkedin:
+      "https://www.linkedin.com/in/dr-hemant-kasturiwale-jain-5274b319/",
   },
   {
     testimonial:
@@ -202,7 +210,7 @@ const testimonials = [
     designation: "CEO",
     company: "Atrina Technologies",
     image: xd3,
-    linkedin: "https://www.linkedin.com/in/amolbhanushali/"
+    linkedin: "https://www.linkedin.com/in/amolbhanushali/",
   },
 ];
 
@@ -248,8 +256,9 @@ const projects = [
       },
     ],
     image: amplify,
-    source_code_link: "https://github.com/GODCarNageOP/Hackathon-AI-Amplify.git",
-    deployed_code_link: "https://hackathon-ai-amplify.vercel.app/"
+    source_code_link:
+      "https://github.com/GODCarNageOP/Hackathon-AI-Amplify.git",
+    deployed_code_link: "https://hackathon-ai-amplify.vercel.app/",
   },
   {
     name: "College Seva",
@@ -270,7 +279,8 @@ const projects = [
       },
     ],
     image: collegeseva,
-    source_code_link: "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
+    source_code_link:
+      "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
     deployed_code_link: "https://hackathon-mumbai-hacks.vercel.app/",
   },
 ];

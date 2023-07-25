@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className='flex justify-center items-center w-full h-full'>
+        <div className='flex justify-center items-center w-full h-full cursor-pointer' onClick={()=>window.open(experience.linkedin, "_blank")}>
           <img
             src={experience.icon}
             alt={experience.company_name}
@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white text-[24px] font-bold cursor-pointer' onClick={()=>window.open(experience.github, "_blank")}>{experience.title}</h3>
         <p
           className='text-blue-100 text-[16px] font-semibold'
           style={{ margin: 0 }}
@@ -64,7 +64,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience
+          Hackathon Experience
         </h2>
       </motion.div>
 
