@@ -21,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./three.png";
 
-import google from "./google.jpg";
-import finance from "./finance.png";
-import owasp from "./owasp.jpg";
-import team from "./team.jpg";
+import google from "./google.png";
+import finance from "./finance.jpg";
+import owasp from "./owasp.png";
+import team from "./team.png";
 
 import elex from "./electronics.png";
 import collegeseva from "./collegeseva.png";
