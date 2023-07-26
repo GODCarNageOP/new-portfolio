@@ -205,7 +205,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Yash proved me wrong.",
+      "I thought it was difficult to make a website as beautiful as our products, but Yash proved me wrong.",
     name: "Amol Bhanushali",
     designation: "CEO",
     company: "Atrina Technologies",
