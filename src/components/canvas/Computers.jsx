@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./lambo/scene.gltf");
+  const computer = useGLTF("./earthquake/scene.gltf");
 
   return (
     <mesh>
@@ -21,7 +21,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.4 : 0.75}
+        scale={isMobile ? 0.4 : 0.15}
         position={isMobile ? [1, -1, -2.2] : [-1.5, -1.25, -1]}
         // rotation={[-0.01, -0.2, -0.1]}
          rotation-y={isMobile && 0 }
