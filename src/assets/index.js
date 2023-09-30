@@ -25,6 +25,7 @@ import google from "./google.png";
 import finance from "./finance.jpg";
 import owasp from "./owasp.png";
 import team from "./team.png";
+import rotaract from "./rotaract.png";
 
 import elex from "./electronics.png";
 import collegeseva from "./collegeseva.png";
@@ -33,6 +34,7 @@ import amplify from "./amplify.jpg";
 import xd1 from "./xd1.jpg";
 import xd2 from "./xd2.jpg";
 import xd3 from "./xd3.jpg";
+
 
 export {
   logo,
@@ -66,5 +68,6 @@ export {
   vercel,
   xd1,
   xd2,
-  xd3
+  xd3,
+  rotaract,
 };

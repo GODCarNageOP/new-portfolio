@@ -26,6 +26,7 @@ import {
   xd1,
   xd2,
   xd3,
+  rotaract
 } from "../assets";
 
 export const navLinks = [
@@ -152,7 +153,7 @@ const experiences = [
     linkedin: "https://www.linkedin.com/company/owasp/",
   },
   {
-    title: "Ai Amplify Hackathon",
+    title: "Ai Amplify",
     company_name: "1 Finance",
     icon: finance,
     iconBg: "black",
@@ -180,6 +181,21 @@ const experiences = [
     ],
     github: "https://github.com/GODCarNageOP/Hackathon-MumbaiHacks.git",
     linkedin: "https://www.linkedin.com/company/mumbaitech/?originalSubdomain=in",
+  },
+  {
+    title: "Technovate",
+    company_name: "Rotaract District 3141",
+    icon: rotaract,
+    iconBg: "black",
+    date: "16th - 17th September 2023",
+    points: [
+      "OrganMatch is a groundbreaking web application dedicated to bridging the gap between organ donors and recipients, revolutionizing the organ transplantation process. With a compassionate mission at its core.",
+      "OrganMatch serves as a secure and efficient platform, connecting individuals in need of life-saving organ transplants with altruistic donors, transforming hope into reality.",
+      "OrganMatch allows both donors and recipients to create detailed profiles, including medical history, organ transplant needs, and essential contact information. Users can securely upload and manage their medical documents, ensuring accurate matching.",
+      "Powered by a sophisticated matching algorithm, OrganMatch evaluates medical criteria such as blood type, tissue compatibility, organ size, and urgency. This ensures precise and timely matches, giving hope to recipients in critical conditions."
+    ],
+    github: "https://github.com/GODCarNageOP/Hackathon-Technovate.git",
+    linkedin: "https://www.linkedin.com/company/rotaract3141/",
   },
 ];
 
