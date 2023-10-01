@@ -106,7 +106,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What you want to say?"
-              className="bg-gradient py-4 px-6 placeholder:text-blue-100 text-white rounded-lg outline-none border-none font-medium"
+              className="bg-gradient py-4 px-6 placeholder:text-blue-100 text-white rounded-lg outline-none border-none font-medium resize-none"
             />
           </label>
 
