@@ -6,7 +6,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-[#0a0a0a]'>
+      <div className='relative z-0 bg-[#030014]'>
         <div className='bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <StarsCanvas />
